@@ -565,11 +565,19 @@ header {
       margin-bottom: 40px;
       padding: 0;
     }
-
+    .certificate {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      .certificate-golden {
+        margin: 10px;
+      }
+    }
     .skills {
       flex-basis: 100%;
       max-width: 100%;
-      margin-bottom: 20px;
 
       .item {
         margin-bottom: 30px;

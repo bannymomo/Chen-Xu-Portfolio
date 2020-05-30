@@ -574,10 +574,19 @@ header .nav-is-visible ul li:nth-child(5) a {
   margin-bottom: 40px;
   padding: 0;
 }
+.about .resume .certificate {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.about .resume .certificate .certificate-golden {
+  margin: 10px;
+}
 .about .resume .skills {
   flex-basis: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
 }
 .about .resume .skills .item {
   margin-bottom: 30px;
